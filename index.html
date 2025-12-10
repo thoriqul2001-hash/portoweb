@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfrz Project — Static</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- FONT POPPINS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('assets/background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .layer {
+      background-color: rgba(51, 49, 49, 0.55);
+      width: 100%;
+    }
+  </style>
+</head>
+<body class="text-gray-900 antialiased">
+
+<div class="layer">
+
+  <!-- HEADER -->
+  <header class="border-b bg-black bg-opacity-10 backdrop-blur">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between text-white">
+    <div class="flex items-center space-x-3">
+
+      <!-- Kotak logo dengan background foto -->
+      <div 
+        class="w-12 h-12 rounded-lg bg-cover bg-center shadow-md" 
+        style="background-image: url('assets/logo.png');">
+      </div>
+
+      <div>
+        <h1 class="font-extrabold text-lg">ALFRZ PROJECT</h1>
+        <p class="text-xs text-gray-300">Creative Visuals & Design</p>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex items-center space-x-6 text-sm text-gray-200">
+      <!-- <a href="#about" class="hover:text-white">About</a> -->
+      <a href="#services" class="hover:text-white">Layanan</a>
+      <a href="#portfolio" class="hover:text-white">Portfolio</a>
+      <a href="#contact" class="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-200">Hubungi Kami</a>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-white">
+    <div>
+      <p class="text-sm uppercase tracking-wide text-white-300 font-semibold">Alfrz Project</p>
+      <h2 class="mt-3 text-4xl md:text-7xl font-extrabold leading-tight">Photography & Graphic Design</h2>
+      <p class="mt-6 text-gray-200">Temukan karya terbaik kami yang menggabungkan kreativitas, estetika, dan detail visual untuk mendukung identitas brand Anda.</p>
+
+      <div class="mt-8 flex gap-4">
+        <a href="#portfolio" class="px-5 py-3 bg-white text-black rounded-lg">Portfolio Kami</a>
+        <a href="#services" class="px-5 py-3 border rounded-lg text-white">Layanan Kami</a>
+      </div>
+    </div>
+
+    <!-- <div class="relative">
+      <div class="rounded-2xl overflow-hidden shadow-2xl">
+        <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=1400&auto=format&fit=crop" class="w-full h-96 object-cover" />
+      </div>
+    </div> -->
+  </section>
+
+  <!-- ABOUT / SERVICES -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16 text-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-2xl font-bold">Layanan kami</h3>
+        <p class="mt-3 text-gray-300">Kami menyediakan layanan fotografi dan desain grafis yang membantu Anda menangkap momen berharga serta membangun identitas visual yang kuat, estetik, dan berkesan.</p>
+      </div>
+      <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6" id="services">
+        <div class="bg-white bg-opacity-20 backdrop-blur p-5 rounded-xl">
+          <div class="text-white-300 font-semibold">Foto Wisuda</div>
+          <p class="text-gray-200 mt-1">Dokumentasi momen kelulusan dengan hasil foto profesional untuk kebutuhan personal maupun sosial media.</p>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur p-5 rounded-xl">
+          <div class="text-white-300 font-semibold">Desain Katalog</div>
+          <p class="text-gray-200 mt-1">Katalog visual yang disusun dengan detail dan sentuhan storytelling, sehingga produk atau jasa Anda terlihat lebih menarik dan mudah dipahami oleh pelanggan.</p>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur p-5 rounded-xl">
+          <div class="text-white-300 font-semibold">Logo</div>
+          <p class="text-gray-200 mt-1">Kami membuat desain logo yang modern dan sesuai karakter brand Anda simple, kuat, dan profesional, agar identitas bisnis lebih mudah dikenali.</p>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur p-5 rounded-xl">
+          <div class="text-white-300 font-semibold">Desain Produk</div>
+          <p class="text-gray-200 mt-1">Kami merancang desain katalog yang rapi, menarik, dan mudah dipahami. Setiap halaman dibuat dengan tata letak profesional agar produk atau layanan Anda tampil lebih meyakinkan dan enak dilihat.</p>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur p-5 rounded-xl">
+          <div class="text-white-300 font-semibold">Desain Kaos</div>
+          <p class="text-gray-200 mt-1">Desain kaos dengan gaya yang segar dan profesional, cocok untuk brand clothing, komunitas, event, ataupun kebutuhan personal agar tampilan Anda lebih standout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="border-t bg-black bg-opacity-20 backdrop-blur">
+  <div class="max-w-6xl mx-auto px-6 py-16 text-white">
+    <h3 class="text-2xl font-bold mb-8">Portofolio Kami</h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- CARD -->
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/katalog/dalem.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Katalog</div>
+      </div>
+
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/kaos/kaos1.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Desain Kaos</div>
+      </div>
+
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/logo/HAN LOGO.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Logo</div>
+      </div>
+
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/produk/produk1.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Desain Produk</div>
+      </div>
+
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/wisuda/f3.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Foto Wisuda</div>
+      </div>
+
+      <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/katalog/coverdepan.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Desain Katalog</div>
+      </div>
+
+       <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/logo/Artboard 2.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Logo</div>
+      </div>
+
+            <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/kaos/kaos2.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Desain Kaos</div>
+      </div>
+
+            <div class="rounded-xl overflow-hidden shadow-lg bg-white bg-opacity-20 backdrop-blur flex flex-col">
+        <img src="assets/wisuda/f4.jpg" class="w-full h-64 object-cover" />
+        <div class="p-4 font-semibold flex-grow">Foto Wisuda</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CTA -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <div class="bg-white bg-opacity-20 backdrop-blur rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between text-white">
+      <div>
+        <h4 class="text-xl font-bold">Punya ide atau kebutuhan khusus?</h4>
+        <p class="text-gray-200 mt-2">Ceritakan kebutuhan Anda, dan kami akan membantu memilihkan layanan yang paling tepat.</p>
+      </div>
+      <a href="#contact" class="mt-6 md:mt-0 px-6 py-3 bg-white text-black rounded-lg">Hubungi Kami</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-black bg-opacity-30 backdrop-blur text-white">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-bold">Alfrz Project</div>
+        <p class="text-gray-300 text-sm mt-2">Creative visuals & Design.</p>
+      </div>
+      <div>
+        <div class="font-semibold">Contact</div>
+        <p class="text-gray-300 text-sm mt-2">Email: thoriqul2001@gmail.com</p>
+        <p class="text-gray-300 text-sm">IG: @Alfrzthoriq</p>
+        <p class="text-gray-300 text-sm">WhatsSpps: +62 895-2558-9580 </p>
+      </div>
+      <div>
+        <div class="font-semibold">Follow</div>
+        <div class="mt-3 flex gap-4 text-gray-300 text-sm">
+          <a href="#" class="hover:text-white">Instagram</a>
+          <!-- <a href="#" class="hover:text-white">Pinterest</a> -->
+          <a href="#" class="hover:text-white">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 py-6 text-center text-gray-400 text-sm">
+      © 2025 Alfrz Project
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
